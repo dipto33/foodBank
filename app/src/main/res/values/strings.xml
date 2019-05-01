@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FoodBank</string>
+    <string-array name="foodname">
+        <item>Pizza</item>
+        <item>Burger</item>
+        <item>Pasta</item>
+        <item>Macaroni</item>
+        <item>Shawarma</item>
+        <item>Nachos</item>
+        <item>French Fry</item>
+        <item>Chicken Fry</item>
+        <item>Noodles</item>
+    </string-array>
+</resources>

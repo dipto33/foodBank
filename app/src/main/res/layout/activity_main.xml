@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a1a9e2"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ImageView
+        android:adjustViewBounds="true"
+        android:scaleType = "centerCrop"
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:src="@drawable/burger_chips_dinner70497"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Food Is Love"
+        android:textStyle="italic"
+        android:textSize="50dp"
+        android:layout_marginBottom="20sp"/>
+    <Button
+        android:id="@+id/button_id"
+        android:layout_gravity="center"
+        android:backgroundTint="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="100dp"
+        android:text="     CLICK      "
+        android:background="@drawable/button" />
+
+</LinearLayout>
